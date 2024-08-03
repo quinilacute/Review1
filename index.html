@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple HTML5 document showcasing various topics">
+    <title>HTML5 Basics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4;
+        }
+        header {
+            background: #306;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+          color:#f4f4
+        }
+        main {
+            padding: 1rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background: #f9ff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+        pre {
+            background: #306;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 0.5rem;
+            overflow-x: auto;
+          color:#f9ff;
+        }
+        footer {
+            background: #306;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML5 Basics</h1>
+        <nav>
+            <ul>
+                <li><a href="#tags">Tags</a></li>
+                <li><a href="#elements">Elements</a></li>
+                <li><a href="#attributes">Attributes</a></li>
+                <li><a href="#semantics">Semantics</a></li>
+                <li><a href="#structure">Structure</a></li>
+                <li><a href="#syntax">Syntax</a></li>
+                <li><a href="#doctype">Doctype</a></li>
+                <li><a href="#meta">Meta Tags</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="tags">
+            <h2>HTML Tags</h2>
+            <p>HTML tags are used to create elements in a web page. Tags are enclosed in angle brackets. For example:</p>
+            <pre>
+&lt;tag&gt;Content&lt;/tag&gt;
+            </pre>
+        </section>
+        
+        <section id="elements">
+            <h2>HTML Elements</h2>
+            <p>HTML elements are the building blocks of web pages. An element typically consists of an opening tag, content, and a closing tag. Example:</p>
+            <pre>
+&lt;div&gt;This is a div element.&lt;/div&gt;
+            </pre>
+        </section>
+        
+        <section id="attributes">
+            <h2>HTML Attributes</h2>
+            <p>Attributes provide additional information about HTML elements. They are specified in the opening tag and have a name and value. Example:</p>
+            <pre>
+&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;
+            </pre>
+        </section>
+        
+        <section id="semantics">
+            <h2>HTML Semantics</h2>
+            <p>Semantic HTML elements clearly describe their meaning in a human- and machine-readable way. Examples:</p>
+            <pre>
+&lt;header&gt;Header content&lt;/header&gt;
+&lt;footer&gt;Footer content&lt;/footer&gt;
+            </pre>
+        </section>
+        
+        <section id="structure">
+            <h2>HTML Structure</h2>
+            <p>A basic HTML document structure includes the following elements:</p>
+            <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;&lt;/head&gt;
+    &lt;body&gt;&lt;/body&gt;
+&lt;/html&gt;
+            </pre>
+        </section>
+        
+        <section id="syntax">
+            <h2>HTML Syntax</h2>
+            <p>HTML syntax involves elements and attributes enclosed in angle brackets. Example:</p>
+            <pre>
+&lt;element attribute="value"&gt;Content&lt;/element&gt;
+            </pre>
+        </section>
+        
+        <section id="doctype">
+            <h2>Doctype Declaration</h2>
+            <p>The doctype declaration defines the document type and version of HTML. For HTML5, it is:</p>
+            <pre>
+&lt;!DOCTYPE html&gt;
+            </pre>
+        </section>
+        
+        <section id="meta">
+            <h2>Meta Tags</h2>
+            <p>Meta tags provide metadata about the HTML document. Examples include charset, viewport, and description:</p>
+            <pre>
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;meta name="description" content="A description of the page"&gt;
+            </pre>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2024 HTML5 Basics. All rights reserved.</p>
+    </footer>
+</body>
+</html>
